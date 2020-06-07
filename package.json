@@ -1,0 +1,32 @@
+{
+  "name": "stream-pub-sub",
+  "version": "0.0.1",
+  "description": "dependency free publisher subscribe pattern for stream data",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "module",
+    "node",
+    "typescript"
+  ],
+  "author": "C-ZW",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.12.44",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5",
+    "@types/jest": "^25.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/C-ZW/stream-pub-sub"
+  },
+  "bugs": {
+    "url": "https://github.com/C-ZW/stream-pub-sub/issues"
+  },
+  "homepage": "https://github.com/C-ZW/stream-pub-sub"
+}
