@@ -1,4 +1,4 @@
-import SPS from '../index';
+import SPS from '../src/index';
 import { Readable, PassThrough } from 'stream';
 
 describe('', () => {

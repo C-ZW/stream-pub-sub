@@ -5,7 +5,7 @@
         "declaration": true,
         "sourceMap": true,
         "allowJs": true,
-        "outDir": "./dist",
+        "outDir": "./lib",
         "strict": true,
         "strictNullChecks": true,
         "alwaysStrict": true,
@@ -18,10 +18,11 @@
     },
     "include": [
         "./example",
-        "./index.ts",
+        "src/index.ts",
         "./src"
     ],
     "exclude": [
+        "node_modules",
         "./test"
     ]
 }
